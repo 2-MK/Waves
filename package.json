@@ -1,12 +1,19 @@
 {
-  "name": "backend",
+  "name": "waves-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend API for the Waves project",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "waves",
+    "node",
+    "express",
+    "mongodb",
+    "authentication"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
